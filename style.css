@@ -1,0 +1,12 @@
+body {
+    background: #CCCCCC;
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+.p-mision {
+    font-size: 20px;
+}
