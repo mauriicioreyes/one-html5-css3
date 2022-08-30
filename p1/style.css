@@ -1,10 +1,17 @@
 body {
     background: #CCCCCC;
-    text-align: center;
 }
 
 #banner {
     width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 em strong {
@@ -13,4 +20,8 @@ em strong {
 
 #mision {
     font-size: 20px;
+}
+
+.items {
+    font-style: italic;
 }
