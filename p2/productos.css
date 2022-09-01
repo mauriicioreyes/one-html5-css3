@@ -39,7 +39,7 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background-color: #CCCCCC;
+    /* background-color: #CCCCCC; */
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -48,6 +48,15 @@ nav a {
     border-width: 2px;
     border-style: solid; */
     border: 2px solid #000000;
+
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 5px; 
+    
+    border-radius: 100px 20px 50px 5px; */
+
+    border-radius: 10px;
 }
 
 .productos h2 {
