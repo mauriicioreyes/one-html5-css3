@@ -34,8 +34,8 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
                 
-                <div>
-                    <p>¿Cómo le gustaría que lo contactemos?</p>
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
                     <label for="radio-email">
                         <input type="radio" name="contacto" value="email" id="radio-email"/>
                         Email
@@ -50,16 +50,17 @@
                         <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked/>
                         WhatsApp
                     </label>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>¿En cuál horario prefiere ser atendido?</p>
+                <!-- fieldset: Agrupa datos que referencian a un conjunto de datos -->
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
 
                 <label class="input-checkbox">
                     <input type="checkbox" checked/>
@@ -71,7 +72,7 @@
             </form>            
         </main>
         <footer>
-            <img src="../p2/imagenes/logo-blanco.png"/>
+            <img src="../p2/imagenes/logo-blanco.png" alt="Logo Barbería Alura"/>
             <p class="copyright">&copy; Barbería Alura - 2022</p>
         </footer>
     </body>
