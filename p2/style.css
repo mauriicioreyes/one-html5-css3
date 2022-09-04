@@ -118,23 +118,3 @@ form label, p {
 .input-checkbox {
     margin: 20px 0;
 }
-
-form p {
-    color: purple;
-}
-
-p {
-    color: red;
-}
-
-.test {
-    color: orange;
-}
-
-p.test {
-    color: green;
-}
-
-#test {
-    color: plum;
-}
