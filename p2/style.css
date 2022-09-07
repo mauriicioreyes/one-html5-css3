@@ -129,11 +129,11 @@ form label, legend {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s all;
 }
 
 .enviar:hover {
     background: darkorange;
-    transition: 1s all;
 
     transform: scale(1.2);
 
