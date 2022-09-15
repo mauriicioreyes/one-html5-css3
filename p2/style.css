@@ -97,11 +97,6 @@ footer {
 }
 
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -164,14 +159,40 @@ td, th {
     width: 100%;
 }
 
- .titulo-principal {
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+
+
+.titulo-principal {
     text-align: center;
-
-    /* 2em - Dos veces el tamaño de fuente que el navegador asigna */
     font-size: 2em;
-
     margin: 0 0 1em;
     clear: left;
+}
+
+/* Pseudoelementos en CSS
+
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content: " }";
+}
+
+p:first-line {
+    font-style: italic;
+} */
+
+.contenido-principal {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -192,8 +213,16 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
+
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+    /* background: radial-gradient(pink, blue); */
+}
+
+.contenido-mapa {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -201,8 +230,14 @@ td, th {
     text-align: center;
 }
 
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+}
+
 .contenido-diferenciales {
-    width: 640px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -214,6 +249,10 @@ td, th {
 
 .items {
     line-height: 1.5;
+}
+
+.items:before {
+    content: "✧ ";
 }
 
 /* .items:first-child
