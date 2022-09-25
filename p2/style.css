@@ -160,29 +160,6 @@ td, th {
     width: 100%;
 }
 
-/* Pseudoelementos avanzados
-elemento > hijo */
-
-/* Sólo aplica a los hijos del elemento */
-    main > p {
-        background-color: red;
-    } 
-
-/* Selecciona un elemento después de otro */
-    img + p {
-    background-color: yellow;
-    }
-
-/* Aplica a todos los elementos después de otro */
-    img ~ p {
-    background: blue;
-    }
-
-/* Selecciona todos los elementos excepto el indicado */
-.principal p:not(#mision) {
-    background-color: orange;
-}
-
 .principal {
     padding: 3em 0;
     background: #FEFEFE;
@@ -194,6 +171,11 @@ elemento > hijo */
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+
+.titulo-principal:hover {
+    color: rgba(54, 94, 84, 0.3);
+    transition: 400ms;
 }
 
 .contenido-principal {
@@ -266,6 +248,11 @@ elemento > hijo */
 
 .imagen-diferenciales {
     width: 60%;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .video {
