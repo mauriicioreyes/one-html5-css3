@@ -153,10 +153,34 @@ td, th {
     padding: 8px 15px;
 }
 
+
 /* Aquí inicia el CSS para nuestro HOME */
 
 .banner {
     width: 100%;
+}
+
+/* Pseudoelementos avanzados
+elemento > hijo */
+
+/* Sólo aplica a los hijos del elemento */
+    main > p {
+        background-color: red;
+    } 
+
+/* Selecciona un elemento después de otro */
+    img + p {
+    background-color: yellow;
+    }
+
+/* Aplica a todos los elementos después de otro */
+    img ~ p {
+    background: blue;
+    }
+
+/* Selecciona todos los elementos excepto el indicado */
+.principal p:not(#mision) {
+    background-color: orange;
 }
 
 .principal {
@@ -171,24 +195,6 @@ td, th {
     margin: 0 0 1em;
     clear: left;
 }
-
-/* Pseudoelementos en CSS
-
-.titulo-principal:first-letter {
-    font-weight: bold;
-}
-
-.titulo-principal:before {
-    content: "[ ";
-}
-
-.titulo-principal:after {
-    content: " }";
-}
-
-p:first-line {
-    font-style: italic;
-} */
 
 .contenido-principal {
     width: 940px;
@@ -217,7 +223,6 @@ p:first-line {
 .mapa {
     padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
-    /* background: radial-gradient(pink, blue); */
 }
 
 .contenido-mapa {
@@ -254,11 +259,6 @@ p:first-line {
 .items:before {
     content: "✧ ";
 }
-
-/* .items:first-child
-.items:last-child
-.items:nth-child(3)
-.items:nth-child(2n) */
 
 .items:first-child {
     font-weight: bold;
