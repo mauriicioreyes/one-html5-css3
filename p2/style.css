@@ -271,7 +271,19 @@ td, th {
 /* Aquí termina el CSS para nuestro HOME */
 
 @media screen and (max-width: 480px) {
-    body {
-        background-color:rgba(54, 94, 84, 0.3);
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .principal, .encabezado, .contenido-mapa, .contenido-diferenciales, .contenido-principal, .video {
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales, .video iframe {
+        width: 100%;
     }
 }
